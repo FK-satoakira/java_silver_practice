@@ -27,6 +27,9 @@ public class Sample{
     	calc();
     	Instant end = Instant.now();
     	System.out.println(Duration.between(start, end));
+	    
+	    //結果は大分効率化された。
+// 	    時間もなん十分の一、メモリもなん十分の一になった。
     }
 }
 
